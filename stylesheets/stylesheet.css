@@ -19,7 +19,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -31,7 +31,7 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+header, hgroup, menu, nav, section {
   display: block;
 }
 
@@ -104,9 +104,7 @@ p {
   margin: 10px 0 15px 0;
 }
 
-footer p {
-  color: #f2f2f2;
-}
+
 
 a {
   text-decoration: none;
@@ -130,10 +128,7 @@ a {
   text-shadow: #0090ff 0px 0px 2px;
 }
 
-footer a:hover {
-  color: #43adff;
-  text-shadow: #0090ff 0px 0px 2px;
-}
+
 
 em {
   font-style: italic;
@@ -353,9 +348,6 @@ Full-Width Styles
   padding-top: 40px;
 }
 
-#footer_wrap {
-  background: #212121;
-}
 
 
 
