@@ -14,5 +14,5 @@ Imports: methods, spam, survival
 Suggests: xtable, dataRetrieval
 License: file LICENSE
 NeedsCompilation: no
-MD5sum: 949d78419a09cdd8be89ea740cd62255
+MD5sum: dd9f9bc3a73bf180d0ee697a7bf4a31b
 
