@@ -1,39 +1,18 @@
 Package: dataRetrieval
-<<<<<<< HEAD
 Version: 1.2.2
 Depends: R (>= 2.15.0)
 Imports: zoo, XML, RCurl
 Suggests: xtable, EGRET, knitr
-=======
-Version: 1.2.1
-Depends: R (>= 2.15.0)
-Imports: zoo
-Suggests: xtable
->>>>>>> 8b6ca0b115609e1e491e44bfc75609283db637d6
 License: file LICENSE
 MD5sum: aa32e7832907e7ddbc3547e52b66cb8f
 NeedsCompilation: no
-<<<<<<< HEAD
 
 Package: EGRET
 Version: 1.2.4
 Depends: R (>= 2.13.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
-=======
-MD5sum: 6895bcf72fd3ff10d6c964b00a60ba82
-
-Package: EGRET
-Version: 1.2.3
-Depends: R (>= 2.13.0), fields
-Imports: methods, spam, survival
-Suggests: xtable, dataRetrieval
->>>>>>> 8b6ca0b115609e1e491e44bfc75609283db637d6
 License: file LICENSE
 MD5sum: 1486be14b724ee287480378f550d4d02
 NeedsCompilation: no
-<<<<<<< HEAD
-=======
-MD5sum: dd9f9bc3a73bf180d0ee697a7bf4a31b
->>>>>>> 8b6ca0b115609e1e491e44bfc75609283db637d6
 
