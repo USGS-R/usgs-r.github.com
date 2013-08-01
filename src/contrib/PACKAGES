@@ -16,3 +16,10 @@ License: file LICENSE
 MD5sum: f3f01a0bbfde6a2bd43921245a749e66
 NeedsCompilation: no
 
+Package: rash
+Version: 1.0
+Depends: R (>= 2.7.0), utils
+License: file LICENSE
+MD5sum: 160a38774c0f3020bb744e9de823c90a
+NeedsCompilation: no
+
