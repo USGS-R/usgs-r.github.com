@@ -1,0 +1,50 @@
+Package: USGSgui
+Version: 0.6
+Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice, tools,
+          BSDA
+Imports: tcltk
+Suggests: USGSwsData, USGSwsQW
+License: file LICENSE
+MD5sum: d698f1b0f3904d76691f5a9f760d04a9
+NeedsCompilation: no
+
+Package: USGSwsBase
+Version: 0.6
+Depends: stats, lubridate (>= 1.3), XML
+Imports: methods
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: a095927ef6236f40dd1c7df2d9ed5ba6
+NeedsCompilation: no
+
+Package: USGSwsData
+Version: 0.7
+License: file LICENSE
+MD5sum: 70c9f831b2c3dd4eae2b9193dc6841a5
+NeedsCompilation: no
+
+Package: USGSwsGraphs
+Version: 0.7
+Depends: KernSmooth, USGSwsBase (>= 0.4), akima, methods
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: 64565c726657bb682882e1ca5e96d533
+NeedsCompilation: no
+
+Package: USGSwsQW
+Version: 0.4
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Suggests: USGSwsData
+License: file LICENSE
+MD5sum: 0cb17ae77d487163a2a5b4a4586998dc
+NeedsCompilation: no
+
+Package: USGSwsStats
+Version: 0.5
+Depends: USGSwsBase (>= 0.5), leaps, USGSwsGraphs (>= 0.6), boot
+Imports: car
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: 44d17b9732f492e51a5cbe68d8205e03
+NeedsCompilation: no
+

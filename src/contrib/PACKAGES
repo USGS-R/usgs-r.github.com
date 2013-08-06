@@ -23,3 +23,50 @@ License: file LICENSE
 MD5sum: 160a38774c0f3020bb744e9de823c90a
 NeedsCompilation: no
 
+Package: rloadest
+Version: 0.1.0
+Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
+License: GPL-2
+MD5sum: 30af824fdb25b5f31a17c9aa6b545d5e
+NeedsCompilation: yes
+
+Package: USGSwsBase
+Version: 0.7
+Depends: stats, lubridate (>= 1.3), XML
+Imports: methods
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: 32ed5d71203a388dec77bce5f27fa105
+NeedsCompilation: no
+
+Package: USGSwsData
+Version: 0.7
+License: file LICENSE
+MD5sum: 2151e094fae9e4f6ddfc152cd5b7e9b1
+NeedsCompilation: no
+
+Package: USGSwsGraphs
+Version: 0.7
+Depends: KernSmooth, USGSwsBase (>= 0.4), akima, methods
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: 061cd2a90f94ba83aead1674032a5975
+NeedsCompilation: no
+
+Package: USGSwsQW
+Version: 0.5
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Suggests: USGSwsData
+License: file LICENSE
+MD5sum: 3a78f4cfa6aeedec49775f2ac09ca136
+NeedsCompilation: yes
+
+Package: USGSwsStats
+Version: 0.5
+Depends: USGSwsBase (>= 0.5), leaps, USGSwsGraphs (>= 0.6), boot
+Imports: car
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: e63dcba43574a973fd9d4e2d47c62d5d
+NeedsCompilation: yes
+
