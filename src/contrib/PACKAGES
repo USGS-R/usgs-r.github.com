@@ -16,6 +16,14 @@ License: file LICENSE
 MD5sum: f3f01a0bbfde6a2bd43921245a749e66
 NeedsCompilation: no
 
+Package: EnDDaT
+Version: 1.1.0
+Depends: R (>= 3.0.0)
+Imports: XML, RCurl
+License: file LICENSE
+MD5sum: ff49357c1494618530e233a6010fe120
+NeedsCompilation: no
+
 Package: rash
 Version: 1.0
 Depends: R (>= 2.7.0), utils
