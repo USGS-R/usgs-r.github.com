@@ -1,7 +1,25 @@
+Package: dataRetrieval
+Version: 1.2.2
+Depends: R (>= 2.15.0)
+Imports: zoo, XML, RCurl
+Suggests: xtable, EGRET, knitr
+License: file LICENSE
+MD5sum: 51e2a03ae3601a490634edc2e596816b
+NeedsCompilation: no
+
+Package: EGRET
+Version: 1.2.4
+Depends: R (>= 2.13.0)
+Imports: methods, survival, fields
+Suggests: xtable, dataRetrieval, knitr, extrafont
+License: file LICENSE
+MD5sum: 75bb73d5ac295590cbd15d4cad84f48b
+NeedsCompilation: no
+
 Package: USGSgui
 Version: 0.6
-Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice, tools,
-          BSDA
+Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk,
+         lattice, tools, BSDA
 Imports: tcltk
 Suggests: USGSwsData, USGSwsQW
 License: file LICENSE
