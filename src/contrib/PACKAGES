@@ -69,6 +69,15 @@ License: file LICENSE
 MD5sum: 3a78f4cfa6aeedec49775f2ac09ca136
 NeedsCompilation: yes
 
+Package: USGSwsQWSR
+Version: 1.1.0
+Depends: R (>= 3.0), USGSwsQW, latticeExtra, MASS
+Imports: quantreg
+Suggests: xtable, dataRetrieval, EGRET
+License: file LICENSE
+MD5sum: 342c6b93285b0920e8345c26a5ba6cdc
+NeedsCompilation: no
+
 Package: USGSwsStats
 Version: 0.5
 Depends: USGSwsBase (>= 0.5), leaps, USGSwsGraphs (>= 0.6), boot
