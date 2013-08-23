@@ -13,7 +13,7 @@ Depends: R (>= 2.13.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 75bb73d5ac295590cbd15d4cad84f48b
+MD5sum: fa6827caf19d6a4b34306f29471ea4ce
 NeedsCompilation: no
 
 Package: USGSgui
