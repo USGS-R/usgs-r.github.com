@@ -42,6 +42,13 @@ Suggests: USGSwsData
 License: file LICENSE
 Archs: i386, x64
 
+Package: USGSwsQWSR
+Version: 1.1.0
+Depends: R (>= 3.0), USGSwsQW, latticeExtra, MASS
+Imports: quantreg
+Suggests: xtable, dataRetrieval, EGRET
+License: file LICENSE
+
 Package: USGSwsStats
 Version: 0.5
 Depends: USGSwsBase (>= 0.5), leaps, USGSwsGraphs (>= 0.6), boot
