@@ -12,6 +12,16 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
+Package: HITHATStats
+Version: 3.0
+Depends: R (>= 3.0), zoo, chron, doBy, XML, RCurl, hydroGOF
+License: file LICENSE
+
+Package: NWCCompare
+Version: 3.0
+Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
+License: file LICENSE
+
 Package: rloadest
 Version: 0.1.0
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
