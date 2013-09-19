@@ -16,6 +16,20 @@ License: file LICENSE
 MD5sum: fa6827caf19d6a4b34306f29471ea4ce
 NeedsCompilation: no
 
+Package: HITHATStats
+Version: 3.0
+Depends: R (>= 3.0), zoo, chron, doBy, XML, RCurl, hydroGOF
+License: file LICENSE
+MD5sum: dd2218ba9e805147b008adf571464938
+NeedsCompilation: no
+
+Package: NWCCompare
+Version: 3.0
+Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
+License: file LICENSE
+MD5sum: bd17d13d17dfc4fdbd62e15b6f5f73b2
+NeedsCompilation: no
+
 Package: USGSgui
 Version: 0.6
 Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk,
