@@ -24,6 +24,20 @@ License: file LICENSE
 MD5sum: ff49357c1494618530e233a6010fe120
 NeedsCompilation: no
 
+Package: HITHATStats
+Version: 3.0
+Depends: R (>= 3.0), zoo, chron, doBy, XML, RCurl, hydroGOF
+License: file LICENSE
+MD5sum: 3f06c99e7a8d95870f4ac0ef0e5d9155
+NeedsCompilation: no
+
+Package: NWCCompare
+Version: 3.0
+Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
+License: file LICENSE
+MD5sum: 62e815e4c48b52fc2c9a89e459a41b71
+NeedsCompilation: no
+
 Package: rash
 Version: 1.0
 Depends: R (>= 2.7.0), utils
