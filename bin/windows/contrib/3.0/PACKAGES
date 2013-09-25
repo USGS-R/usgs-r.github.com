@@ -1,7 +1,7 @@
 Package: dataRetrieval
 Version: 1.2.2
 Depends: R (>= 3.0)
-Imports: zoo, XML, RCurl
+Imports: zoo, XML, RCurl, plyr
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
 
