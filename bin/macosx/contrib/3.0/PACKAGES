@@ -13,7 +13,7 @@ Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 55af500dde7434872f98b628f3e8fd53
+MD5sum: a3e879d415c7946adef2383c70593d38
 NeedsCompilation: no
 
 Package: HITHATStats
