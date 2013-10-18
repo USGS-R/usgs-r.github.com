@@ -54,9 +54,9 @@ Archs: i386, x64
 
 Package: USGSwsQWSR
 Version: 1.1.0
-Depends: R (>= 3.0), USGSwsQW, latticeExtra, MASS
+Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
 Imports: quantreg
-Suggests: xtable, dataRetrieval, EGRET
+Suggests: xtable, EGRET, knitr
 License: file LICENSE
 
 Package: USGSwsStats
