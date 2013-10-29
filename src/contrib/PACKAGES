@@ -21,7 +21,7 @@ Version: 1.1.0
 Depends: R (>= 3.0.0)
 Imports: XML, RCurl
 License: file LICENSE
-MD5sum: ff49357c1494618530e233a6010fe120
+MD5sum: 522309a21899fdd20a1f7f762303956f
 NeedsCompilation: no
 
 Package: HITHATStats
