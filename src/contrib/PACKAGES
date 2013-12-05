@@ -7,6 +7,14 @@ License: file LICENSE
 MD5sum: cb4c50340730c675257d018137073885
 NeedsCompilation: no
 
+Package: EflowStats
+Version: 3.0
+Depends: R (>= 3.0)
+Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
+License: file LICENSE
+MD5sum: 21d5ff69dd258d3cf30928bd940fd9db
+NeedsCompilation: no
+
 Package: EGRET
 Version: 1.2.4
 Depends: R (>= 3.0)
@@ -22,13 +30,6 @@ Depends: R (>= 3.0.0)
 Imports: XML, RCurl
 License: file LICENSE
 MD5sum: 522309a21899fdd20a1f7f762303956f
-NeedsCompilation: no
-
-Package: HITHATStats
-Version: 3.0
-Depends: R (>= 3.0), zoo, chron, doBy, XML, RCurl, hydroGOF
-License: file LICENSE
-MD5sum: 3f06c99e7a8d95870f4ac0ef0e5d9155
 NeedsCompilation: no
 
 Package: NWCCompare

@@ -5,16 +5,17 @@ Imports: zoo, XML, RCurl, plyr
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
 
+Package: EflowStats
+Version: 3.0
+Depends: R (>= 3.0)
+Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
+License: file LICENSE
+
 Package: EGRET
 Version: 1.2.4
 Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
-License: file LICENSE
-
-Package: HITHATStats
-Version: 3.0
-Depends: R (>= 3.0), zoo, chron, doBy, XML, RCurl, hydroGOF
 License: file LICENSE
 
 Package: NWCCompare
