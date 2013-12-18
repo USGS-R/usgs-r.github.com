@@ -4,7 +4,7 @@ Depends: R (>= 3.0)
 Imports: zoo, XML, RCurl, plyr
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 2137be8351c33a75b83c7cf5e16231c6
+MD5sum: 566997936ac9d0f842551eeb398fe77a
 NeedsCompilation: no
 
 Package: EflowStats
