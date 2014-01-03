@@ -7,6 +7,15 @@ License: file LICENSE
 MD5sum: 566997936ac9d0f842551eeb398fe77a
 NeedsCompilation: no
 
+Package: DVstats
+Version: 0.1
+Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
+Imports: robust, methods
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: d87ab5f8825bea006dff9c7741e1c045
+NeedsCompilation: no
+
 Package: EflowStats
 Version: 3.0
 Depends: R (>= 3.0)
@@ -46,34 +55,39 @@ License: file LICENSE
 MD5sum: 160a38774c0f3020bb744e9de823c90a
 NeedsCompilation: no
 
+Package: restrend
+Version: 0.2
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
+MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
+NeedsCompilation: yes
+
 Package: rloadest
-Version: 0.1.0
+Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
-License: GPL-2
-MD5sum: 30af824fdb25b5f31a17c9aa6b545d5e
+MD5sum: df6a396d87ded8ad6877dc6790dddcdb
 NeedsCompilation: yes
 
 Package: USGSwsBase
 Version: 0.7
-Depends: stats, lubridate (>= 1.3), XML
+Depends: stats, memoise, digest, lubridate (>= 1.3), XML
 Imports: methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
-MD5sum: a23b830fbb3e458e1b26936a7b5cd41d
+MD5sum: 47f5013c28993fe54e66620ae75903ff
 NeedsCompilation: no
 
 Package: USGSwsData
-Version: 0.7
+Version: 0.8
 License: file LICENSE
-MD5sum: 2151e094fae9e4f6ddfc152cd5b7e9b1
+MD5sum: 587859529d6f35dca66890a3bdc52764
 NeedsCompilation: no
 
 Package: USGSwsGraphs
-Version: 0.7
+Version: 0.8
 Depends: KernSmooth, USGSwsBase (>= 0.4), akima, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
-MD5sum: 061cd2a90f94ba83aead1674032a5975
+MD5sum: 41549123b3b7b2469b3c4a53b87d6bd4
 NeedsCompilation: no
 
 Package: USGSwsQW
@@ -81,7 +95,7 @@ Version: 0.5
 Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
-MD5sum: 3a78f4cfa6aeedec49775f2ac09ca136
+MD5sum: 0f0519e38516cb5bfcfa7850b16436a4
 NeedsCompilation: yes
 
 Package: USGSwsQWSR
@@ -94,11 +108,11 @@ MD5sum: 922cb5c3fb7807f93a48943aa03b8fc5
 NeedsCompilation: no
 
 Package: USGSwsStats
-Version: 0.5
-Depends: USGSwsBase (>= 0.5), leaps, USGSwsGraphs (>= 0.6), boot
+Version: 0.6
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
 Imports: car
-Suggests: USGSwsData (>= 0.6)
+Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
-MD5sum: e63dcba43574a973fd9d4e2d47c62d5d
+MD5sum: 34a641e6fe74b9b9fe7e274a8cd1cd90
 NeedsCompilation: yes
 
