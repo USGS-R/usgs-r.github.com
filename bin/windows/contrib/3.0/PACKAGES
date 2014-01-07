@@ -65,7 +65,7 @@ License: file LICENSE
 Archs: i386, x64
 
 Package: USGSwsQWSR
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
 Imports: quantreg
 Suggests: xtable, EGRET, knitr
