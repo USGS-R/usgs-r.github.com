@@ -104,7 +104,7 @@ Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
 Imports: quantreg
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 69f350c612c8a424501fc63d90994f45
+MD5sum: fdae8c42ec6940896275f7bab38dc3d0
 NeedsCompilation: no
 
 Package: USGSwsStats
