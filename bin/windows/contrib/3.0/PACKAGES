@@ -25,6 +25,18 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
+Package: GSHydroTools
+Version: 1.0.0
+Depends: R (>= 3.0), rgdal, sp, dataRetrieval, USGSwsBase
+License: file LICENSE
+
+Package: GSqwsr
+Version: 1.1.1
+Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
+Imports: quantreg
+Suggests: xtable, EGRET, knitr
+License: file LICENSE
+
 Package: NWCCompare
 Version: 3.0
 Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
