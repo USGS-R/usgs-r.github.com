@@ -25,6 +25,13 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
+Package: GLRItcl
+Version: 1.0.0
+Depends: R (>= 3.0.0)
+Imports: rgdal, sp
+Suggests: knitr
+License: file LICENSE
+
 Package: GSHydroTools
 Version: 1.0.0
 Depends: R (>= 3.0), rgdal, sp, dataRetrieval, USGSwsBase
