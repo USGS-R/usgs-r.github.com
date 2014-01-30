@@ -9,7 +9,8 @@ NeedsCompilation: no
 
 Package: DVstats
 Version: 0.1
-Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
+Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd,
+       stats4
 Imports: robust, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
@@ -54,7 +55,7 @@ Package: GSHydroTools
 Version: 1.0.0
 Depends: R (>= 3.0), rgdal, sp, dataRetrieval, USGSwsBase
 License: file LICENSE
-MD5sum: c9072432104474f0334f79fc594f5510
+MD5sum: 4e0f1ace9a981712faff39430e6b8bb9
 NeedsCompilation: no
 
 Package: GSqwsr
@@ -68,7 +69,8 @@ NeedsCompilation: no
 
 Package: NWCCompare
 Version: 3.0
-Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
+Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats,
+       lmomco
 License: file LICENSE
 MD5sum: 62e815e4c48b52fc2c9a89e459a41b71
 NeedsCompilation: no
@@ -82,7 +84,8 @@ NeedsCompilation: no
 
 Package: restrend
 Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats,
+       USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
 NeedsCompilation: yes
 
@@ -117,7 +120,8 @@ NeedsCompilation: no
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods,
+       XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: 0f0519e38516cb5bfcfa7850b16436a4
@@ -134,7 +138,8 @@ NeedsCompilation: no
 
 Package: USGSwsStats
 Version: 0.6
-Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6),
+       boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE

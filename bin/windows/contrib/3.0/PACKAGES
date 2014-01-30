@@ -7,7 +7,8 @@ License: file LICENSE
 
 Package: DVstats
 Version: 0.1
-Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
+Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd,
+       stats4
 Imports: robust, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
@@ -46,12 +47,14 @@ License: file LICENSE
 
 Package: NWCCompare
 Version: 3.0
-Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
+Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats,
+       lmomco
 License: file LICENSE
 
 Package: restrend
 Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats,
+       USGSwsQW
 Archs: i386, x64
 
 Package: rloadest
@@ -78,7 +81,8 @@ License: file LICENSE
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods,
+       XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 Archs: i386, x64
@@ -92,7 +96,8 @@ License: file LICENSE
 
 Package: USGSwsStats
 Version: 0.6
-Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6),
+       boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
