@@ -75,6 +75,13 @@ License: file LICENSE
 MD5sum: 62e815e4c48b52fc2c9a89e459a41b71
 NeedsCompilation: no
 
+Package: Rainmaker
+Version: 1.0.0
+Depends: R (>= 3.0)
+License: file LICENSE
+MD5sum: 57bb363beb0407f2d9071b42b2f7fdff
+NeedsCompilation: no
+
 Package: rash
 Version: 1.0
 Depends: R (>= 2.7.0), utils
