@@ -54,7 +54,7 @@ Package: GSHydroTools
 Version: 1.0.0
 Depends: R (>= 3.0), rgdal, sp, dataRetrieval, USGSwsBase
 License: file LICENSE
-MD5sum: 8f57b9adba45bbae5fca6c4f7c7c9874
+MD5sum: e39d7099007c44c0e7bee8877cfa07ca
 NeedsCompilation: no
 
 Package: GSqwsr
