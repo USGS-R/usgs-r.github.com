@@ -63,7 +63,7 @@ Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
 Imports: quantreg
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 42a550c421fb0b66f79b103d9bf0e1d6
+MD5sum: d6ef40776674cde1bbf563a77415f907
 NeedsCompilation: no
 
 Package: NWCCompare
