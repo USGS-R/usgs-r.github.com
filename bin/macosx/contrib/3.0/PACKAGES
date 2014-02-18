@@ -25,6 +25,15 @@ License: file LICENSE
 MD5sum: 63d202d4738139898c7eaccd6eef7a66
 NeedsCompilation: no
 
+Package: GSqwsr
+Version: 1.1.1
+Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
+Imports: quantreg
+Suggests: xtable, EGRET, knitr
+License: file LICENSE
+MD5sum: 300989011a253a3a24471355c0ecaae6
+NeedsCompilation: no
+
 Package: HITHATStats
 Version: 3.0
 Depends: R (>= 3.0), zoo, chron, doBy, XML, RCurl, hydroGOF
