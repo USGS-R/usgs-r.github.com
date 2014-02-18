@@ -1,10 +1,10 @@
 Package: dataRetrieval
-Version: 1.2.2
+Version: 1.3.0
 Depends: R (>= 3.0)
-Imports: zoo, XML, RCurl, plyr
+Imports: zoo, XML, RCurl, plyr, reshape2
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 4f757f1d4a192ff9817b0d86c92fdc0f
+MD5sum: 4d5dd3a57e6a5d71556800fc6612af96
 NeedsCompilation: no
 
 Package: DVstats
@@ -47,7 +47,8 @@ NeedsCompilation: no
 
 Package: USGSgui
 Version: 0.6
-Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice, tools, BSDA
+Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice,
+          tools, BSDA
 Imports: tcltk
 Suggests: USGSwsData, USGSwsQW
 License: file LICENSE
@@ -86,12 +87,12 @@ MD5sum: 2918d4c1847da0aa9ece1799f14a8ab5
 NeedsCompilation: no
 
 Package: USGSwsQWSR
-Version: 1.1.0
-Depends: R (>= 3.0), USGSwsQW, latticeExtra, MASS
+Version: 1.1.1
+Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
 Imports: quantreg
-Suggests: xtable, dataRetrieval, EGRET
+Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 54bfca12bdd73edfc26f373a9aee3c88
+MD5sum: 6b119efceea0ef432c072bf73e67debd
 NeedsCompilation: no
 
 Package: USGSwsStats
