@@ -26,10 +26,8 @@ Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
 Package: GLRItcl
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 3.0.0)
-Imports: rgdal, sp
-Suggests: knitr
 License: file LICENSE
 
 Package: GSHydroTools
