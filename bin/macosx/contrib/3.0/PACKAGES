@@ -56,8 +56,8 @@ NeedsCompilation: no
 
 Package: USGSgui
 Version: 0.6
-Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice,
-          tools, BSDA
+Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice, tools,
+          BSDA
 Imports: tcltk
 Suggests: USGSwsData, USGSwsQW
 License: file LICENSE

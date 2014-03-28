@@ -21,7 +21,7 @@ Version: 3.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
 License: file LICENSE
-MD5sum: 795938c91673a869949f51d920b10537
+MD5sum: 24eeccf37fa5b7c64630a2f84a18cefb
 NeedsCompilation: no
 
 Package: EGRET
@@ -66,9 +66,10 @@ NeedsCompilation: no
 
 Package: NWCCompare
 Version: 3.0
-Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
+Depends: R (>= 3.0)
+Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 License: file LICENSE
-MD5sum: 62e815e4c48b52fc2c9a89e459a41b71
+MD5sum: 1b3c2185f666a018da895b24d8503fd3
 NeedsCompilation: no
 
 Package: Rainmaker
@@ -96,6 +97,15 @@ Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
 MD5sum: df6a396d87ded8ad6877dc6790dddcdb
 NeedsCompilation: yes
+
+Package: SampleSplitting
+Version: 1.0
+Depends: R (>= 3.0)
+Imports: dataRetrieval, googleVis
+Suggests: knitr
+License: file LICENSE
+MD5sum: 8b79baa8b041e26a5cd6d8db57559827
+NeedsCompilation: no
 
 Package: USGSwsBase
 Version: 0.7
