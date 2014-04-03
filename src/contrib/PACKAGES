@@ -104,7 +104,7 @@ Depends: R (>= 3.0)
 Imports: dataRetrieval, googleVis
 Suggests: knitr
 License: file LICENSE
-MD5sum: 9964e4012fa555b0113247ae54278d23
+MD5sum: 5384a87033995825e2212244afad4715
 NeedsCompilation: no
 
 Package: USGSwsBase
