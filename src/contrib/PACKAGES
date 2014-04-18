@@ -30,7 +30,7 @@ Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 3b302002220ed39cc820039436e6ca66
+MD5sum: 496ffe0dc2494950ebcf1386754063ed
 NeedsCompilation: no
 
 Package: EnDDaT
