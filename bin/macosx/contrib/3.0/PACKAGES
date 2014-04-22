@@ -4,7 +4,7 @@ Depends: R (>= 3.0)
 Imports: zoo, XML, RCurl, plyr, reshape2
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 4d275ef1fd5891dda8830067fee8ccb8
+MD5sum: 92df552d34edbdbe14bff77d3b55c78e
 NeedsCompilation: no
 
 Package: DVstats
@@ -22,7 +22,7 @@ Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 30207dce0e77b76b2d05e4bdc2583c2e
+MD5sum: 3b715a3b9654caf75c16cb00f69450ff
 NeedsCompilation: no
 
 Package: GSqwsr
@@ -56,8 +56,7 @@ NeedsCompilation: no
 
 Package: USGSgui
 Version: 0.6
-Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice, tools,
-          BSDA
+Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice, tools, BSDA
 Imports: tcltk
 Suggests: USGSwsData, USGSwsQW
 License: file LICENSE
