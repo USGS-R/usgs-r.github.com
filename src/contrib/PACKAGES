@@ -4,7 +4,7 @@ Depends: R (>= 3.0)
 Imports: zoo, XML, RCurl, plyr, reshape2
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 0c27254e4fdaf85f42b09dee9a7630f0
+MD5sum: 06a67628ec59948ba0422f7a46154343
 NeedsCompilation: no
 
 Package: DVstats
@@ -30,7 +30,7 @@ Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 54b9af2e5d16c01648d8f6fe73ba5937
+MD5sum: c99778484134382bff161e5b0d12f97c
 NeedsCompilation: no
 
 Package: EnDDaT
