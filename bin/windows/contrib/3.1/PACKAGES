@@ -15,3 +15,18 @@ Depends: KernSmooth, USGSwsBase (>= 0.4), akima, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
+Package: USGSwsQW
+Version: 0.5
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Suggests: USGSwsData
+License: file LICENSE
+Archs: i386, x64
+
+Package: USGSwsStats
+Version: 0.6
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
+Imports: car
+Suggests: USGSwsData (>= 0.8)
+License: file LICENSE
+Archs: i386, x64
+
