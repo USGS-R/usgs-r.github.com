@@ -44,7 +44,8 @@ License: file LICENSE
 
 Package: NWCCompare
 Version: 3.0
-Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
+Depends: R (>= 3.0)
+Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 License: file LICENSE
 
 Package: Rainmaker

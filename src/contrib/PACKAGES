@@ -21,7 +21,7 @@ Version: 3.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
 License: file LICENSE
-MD5sum: 9102c9572c9cc6ea671ae0f0b8e7a5fd
+MD5sum: df21a38fe963e05545f2bd1865dd61d3
 NeedsCompilation: no
 
 Package: EGRET
@@ -69,7 +69,7 @@ Version: 3.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 License: file LICENSE
-MD5sum: 1b3c2185f666a018da895b24d8503fd3
+MD5sum: 81ab5c47907e94b8b8516f3eb5768216
 NeedsCompilation: no
 
 Package: Rainmaker
