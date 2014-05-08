@@ -44,8 +44,7 @@ License: file LICENSE
 
 Package: NWCCompare
 Version: 3.0
-Depends: R (>= 3.0)
-Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
+Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
 License: file LICENSE
 
 Package: Rainmaker
@@ -71,14 +70,14 @@ Suggests: knitr
 License: file LICENSE
 
 Package: USGSwsBase
-Version: 0.7
-Depends: stats, memoise, digest, lubridate (>= 1.3), XML
-Imports: methods
+Version: 0.8.0
+Depends: methods, memoise, digest, lubridate (>= 1.3)
+Imports: stats
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
 Package: USGSwsData
-Version: 0.8
+Version: 0.9.0
 License: file LICENSE
 
 Package: USGSwsGraphs
