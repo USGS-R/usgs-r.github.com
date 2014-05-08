@@ -69,7 +69,7 @@ Version: 3.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 License: file LICENSE
-MD5sum: 49e8068a46e2da084ffdd5cefbc7eb33
+MD5sum: d87e910d47144a3af16baf594326a965
 NeedsCompilation: no
 
 Package: Rainmaker
