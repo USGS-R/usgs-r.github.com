@@ -21,7 +21,7 @@ Version: 3.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
 License: file LICENSE
-MD5sum: 9102c9572c9cc6ea671ae0f0b8e7a5fd
+MD5sum: 8278f65ce3075924b31373d5b097519d
 NeedsCompilation: no
 
 Package: EGRET
@@ -30,7 +30,7 @@ Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: c99778484134382bff161e5b0d12f97c
+MD5sum: 2fa67077e914ccef404cf6cab5460a9c
 NeedsCompilation: no
 
 Package: EnDDaT
@@ -69,7 +69,7 @@ Version: 3.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 License: file LICENSE
-MD5sum: 1b3c2185f666a018da895b24d8503fd3
+MD5sum: 1cb03711a098989ce81fe25b53a9b273
 NeedsCompilation: no
 
 Package: Rainmaker
