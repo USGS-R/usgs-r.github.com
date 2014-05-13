@@ -95,7 +95,7 @@ NeedsCompilation: no
 Package: rloadest
 Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
-MD5sum: fec3d3cf844dce3235b6943d2f632158
+MD5sum: 45d49acf021606218fdfb8bd17f1e343
 NeedsCompilation: no
 
 Package: SampleSplitting
