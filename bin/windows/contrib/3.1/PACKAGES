@@ -1,3 +1,15 @@
+Package: DVstats
+Version: 0.1
+Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
+Imports: robust, methods
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+
+Package: rloadest
+Version: 0.2
+Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
+Archs: i386, x64
+
 Package: USGSwsBase
 Version: 0.8.0
 Depends: methods, memoise, digest, lubridate (>= 1.3)
@@ -17,16 +29,14 @@ License: file LICENSE
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods,
-       XML, mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 Archs: i386, x64
 
 Package: USGSwsStats
 Version: 0.6
-Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6),
-       boot
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE

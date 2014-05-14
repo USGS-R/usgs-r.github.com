@@ -13,7 +13,7 @@ Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
 Imports: robust, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
-MD5sum: d87ab5f8825bea006dff9c7741e1c045
+MD5sum: aab6cd59f37690d064f83f6e3002fe28
 NeedsCompilation: no
 
 Package: EflowStats
@@ -90,13 +90,13 @@ Package: restrend
 Version: 0.2
 Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: rloadest
 Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
-MD5sum: fec3d3cf844dce3235b6943d2f632158
-NeedsCompilation: yes
+MD5sum: 45d49acf021606218fdfb8bd17f1e343
+NeedsCompilation: no
 
 Package: SampleSplitting
 Version: 1.0
@@ -136,7 +136,7 @@ Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: fbf34beba2d4a7e69b7e4de16f70b01e
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: USGSwsQWSR
 Version: 1.1.1
@@ -154,5 +154,5 @@ Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
 MD5sum: 0796d908812e4769737ea57874a5ad36
-NeedsCompilation: yes
+NeedsCompilation: no
 
