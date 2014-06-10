@@ -12,6 +12,11 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
+Package: rloadest
+Version: 0.2
+Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
+Archs: i386, x64
+
 Package: USGSwsBase
 Version: 0.8.0
 Depends: methods, memoise, digest, lubridate (>= 1.3)
@@ -31,7 +36,8 @@ License: file LICENSE
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML,
+        mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 Archs: i386, x64

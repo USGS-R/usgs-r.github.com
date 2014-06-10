@@ -88,14 +88,15 @@ NeedsCompilation: no
 
 Package: restrend
 Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats,
+        USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
 NeedsCompilation: no
 
 Package: rloadest
 Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
-MD5sum: 45d49acf021606218fdfb8bd17f1e343
+MD5sum: 3be0b685126528d7bab0b2464ea8d167
 NeedsCompilation: no
 
 Package: SampleSplitting
@@ -132,7 +133,8 @@ NeedsCompilation: no
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML,
+        mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: fbf34beba2d4a7e69b7e4de16f70b01e
