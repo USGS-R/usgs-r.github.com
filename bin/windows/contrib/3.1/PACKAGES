@@ -5,10 +5,12 @@ Imports: robust, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
-Package: rloadest
-Version: 0.2
-Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
-Archs: i386, x64
+Package: EGRET
+Version: 1.2.5
+Depends: R (>= 3.0)
+Imports: methods, survival, fields
+Suggests: xtable, dataRetrieval, knitr, extrafont
+License: file LICENSE
 
 Package: USGSwsBase
 Version: 0.8.0
