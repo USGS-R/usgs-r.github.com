@@ -43,16 +43,14 @@ NeedsCompilation: no
 
 Package: NWCCompare
 Version: 3.0
-Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats,
-       lmomco
+Depends: R (>= 3.0), zoo, chron, doBy, XML, hydroGOF, HITHATStats, lmomco
 License: file LICENSE
 MD5sum: bd17d13d17dfc4fdbd62e15b6f5f73b2
 NeedsCompilation: no
 
 Package: restrend
 Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats,
-       USGSwsQW
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: 57cacda79596546c706c4db1acb72ff7
 NeedsCompilation: no
 
@@ -64,8 +62,8 @@ NeedsCompilation: no
 
 Package: USGSgui
 Version: 0.6
-Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>=
-       0.4), tcltk, lattice, tools, BSDA
+Depends: relimp, USGSwsGraphs (>= 0.5), USGSwsBase, USGSwsStats (>= 0.4), tcltk, lattice,
+          tools, BSDA
 Imports: tcltk
 Suggests: USGSwsData, USGSwsQW
 License: file LICENSE
@@ -97,8 +95,7 @@ NeedsCompilation: no
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods,
-       XML, mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: 820494b9cdd60ffcb9a58773a0984341
@@ -115,8 +112,7 @@ NeedsCompilation: no
 
 Package: USGSwsStats
 Version: 0.6
-Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6),
-       boot
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
