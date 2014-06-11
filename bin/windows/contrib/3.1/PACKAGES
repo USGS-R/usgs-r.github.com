@@ -12,6 +12,11 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
+Package: Rainmaker
+Version: 1.0.1
+Depends: R (>= 3.0)
+License: file LICENSE
+
 Package: rloadest
 Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
@@ -36,8 +41,7 @@ License: file LICENSE
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML,
-        mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 Archs: i386, x64

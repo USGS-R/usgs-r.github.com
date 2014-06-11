@@ -73,10 +73,10 @@ MD5sum: d5546b9d66e571558d0072fc68960c75
 NeedsCompilation: no
 
 Package: Rainmaker
-Version: 1.0.0
+Version: 1.0.1
 Depends: R (>= 3.0)
 License: file LICENSE
-MD5sum: 57bb363beb0407f2d9071b42b2f7fdff
+MD5sum: 271cbdb36566d46141f630d7b9ff5f12
 NeedsCompilation: no
 
 Package: rash
@@ -88,8 +88,7 @@ NeedsCompilation: no
 
 Package: restrend
 Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats,
-        USGSwsQW
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
 NeedsCompilation: no
 
@@ -133,8 +132,7 @@ NeedsCompilation: no
 
 Package: USGSwsQW
 Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML,
-        mvtnorm
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: fbf34beba2d4a7e69b7e4de16f70b01e
