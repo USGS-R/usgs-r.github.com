@@ -1,5 +1,5 @@
 Package: dataRetrieval
-Version: 1.3.0
+Version: 1.3.1
 Depends: R (>= 3.0)
 Imports: zoo, XML, RCurl, plyr, reshape2
 Suggests: xtable, EGRET, knitr
