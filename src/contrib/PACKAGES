@@ -25,12 +25,12 @@ MD5sum: 6851f57883e667c8c9b021eeefb6a7e4
 NeedsCompilation: no
 
 Package: EGRET
-Version: 1.2.5
+Version: 1.2.6
 Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 4dafd9806fcefdf556b5b19cc20575bd
+MD5sum: 61432f4d49a09a4a585da09f8a10dd4c
 NeedsCompilation: no
 
 Package: EnDDaT
