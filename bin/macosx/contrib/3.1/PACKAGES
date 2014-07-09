@@ -7,6 +7,15 @@ License: file LICENSE
 MD5sum: d5466af847d57e9ca569ec2a7e50b0da
 NeedsCompilation: no
 
+Package: DVstats
+Version: 0.1
+Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
+Imports: robust, methods
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: ce9577037f304d77ce2565efaed7000b
+NeedsCompilation: no
+
 Package: EGRET
 Version: 1.2.6
 Depends: R (>= 3.0)
@@ -14,5 +23,58 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 MD5sum: f0af2d3081e2e98495a222aa96ec83c4
+NeedsCompilation: no
+
+Package: restrend
+Version: 0.2
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
+MD5sum: 981153fb8faab7459412e5bd1d0d19ed
+NeedsCompilation: no
+
+Package: rloadest
+Version: 0.2
+Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
+MD5sum: 01f8da220a0e2d03dfb1389c2d05d812
+NeedsCompilation: no
+
+Package: USGSwsBase
+Version: 0.8.0
+Depends: methods, memoise, digest, lubridate (>= 1.3)
+Imports: stats
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: 4909d1b407c9e2b0eaca618b637e5d8b
+NeedsCompilation: no
+
+Package: USGSwsData
+Version: 0.9.0
+License: file LICENSE
+MD5sum: 557d0c1da777df099e9d3c9f5edb376e
+NeedsCompilation: no
+
+Package: USGSwsGraphs
+Version: 0.9.0
+Depends: USGSwsBase (>= 0.4), methods
+Imports: KernSmooth, akima
+Suggests: USGSwsData (>= 0.6)
+License: file LICENSE
+MD5sum: 08e31413805fa6f482ca7b74f7139c2e
+NeedsCompilation: no
+
+Package: USGSwsQW
+Version: 0.5
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Suggests: USGSwsData
+License: file LICENSE
+MD5sum: 39c9dff45df0b535c6ae5713fda9585d
+NeedsCompilation: no
+
+Package: USGSwsStats
+Version: 0.6
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
+Imports: car
+Suggests: USGSwsData (>= 0.8)
+License: file LICENSE
+MD5sum: b27b5941bd7f1680600668d74f56ea5b
 NeedsCompilation: no
 
