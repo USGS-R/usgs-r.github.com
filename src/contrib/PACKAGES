@@ -4,7 +4,7 @@ Depends: R (>= 3.0)
 Imports: zoo, XML, RCurl, plyr, reshape2
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 845318c5c6901a9ea2454dec9a7ebad4
+MD5sum: 0a6a18f7dd0166d53f962dee26c3ba35
 NeedsCompilation: no
 
 Package: DVstats
@@ -30,7 +30,7 @@ Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 61432f4d49a09a4a585da09f8a10dd4c
+MD5sum: 5f2382b88b388e27a4655ad6b56a0518
 NeedsCompilation: no
 
 Package: EnDDaT
@@ -76,7 +76,7 @@ Package: Rainmaker
 Version: 1.0.1
 Depends: R (>= 3.0)
 License: file LICENSE
-MD5sum: 271cbdb36566d46141f630d7b9ff5f12
+MD5sum: 9d1c094f3bddc3578dbcbdf2711fbebb
 NeedsCompilation: no
 
 Package: rash
