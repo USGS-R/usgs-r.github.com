@@ -13,7 +13,7 @@ Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 14b4e351e6e2acd3c8a8e4f72b22d1ee
+MD5sum: 079e1a961f46902d1dd4b57c464fede5
 NeedsCompilation: no
 
 Package: Rainmaker
