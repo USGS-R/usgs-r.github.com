@@ -25,6 +25,12 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
+Package: NWCCompare
+Version: 4.0
+Depends: R (>= 3.0)
+Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
+License: file LICENSE
+
 Package: Rainmaker
 Version: 1.0.1
 Depends: R (>= 3.0)

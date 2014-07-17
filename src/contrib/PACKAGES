@@ -65,11 +65,11 @@ MD5sum: 47b19ab8229f58e23c4333beeafb6188
 NeedsCompilation: no
 
 Package: NWCCompare
-Version: 3.0
+Version: 4.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 License: file LICENSE
-MD5sum: d5546b9d66e571558d0072fc68960c75
+MD5sum: b29880e64d3fdb1a4ad3129edcf16290
 NeedsCompilation: no
 
 Package: Rainmaker
