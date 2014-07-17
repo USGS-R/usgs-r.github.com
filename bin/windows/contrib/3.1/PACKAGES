@@ -12,6 +12,12 @@ Imports: robust, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
+Package: EflowStats
+Version: 4.0
+Depends: R (>= 3.0)
+Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
+License: file LICENSE
+
 Package: EGRET
 Version: 1.2.6
 Depends: R (>= 3.0)

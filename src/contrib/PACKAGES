@@ -17,11 +17,11 @@ MD5sum: aab6cd59f37690d064f83f6e3002fe28
 NeedsCompilation: no
 
 Package: EflowStats
-Version: 3.0
+Version: 4.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
 License: file LICENSE
-MD5sum: 6851f57883e667c8c9b021eeefb6a7e4
+MD5sum: 5978c682a988630bad7ab1010bd1c69d
 NeedsCompilation: no
 
 Package: EGRET
