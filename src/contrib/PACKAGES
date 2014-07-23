@@ -107,6 +107,15 @@ License: file LICENSE
 MD5sum: 3100d068eb51662a025b354f564b08e9
 NeedsCompilation: no
 
+Package: USGSHydroOpt
+Version: 1.0.0
+Depends: R (>= 3.0)
+Imports: reshape2
+Suggests: knitr
+License: file LICENSE
+MD5sum: 73f669364f0473a57e7600d08a0ec024
+NeedsCompilation: no
+
 Package: USGSwsBase
 Version: 0.8.0
 Depends: methods, memoise, digest, lubridate (>= 1.3)
