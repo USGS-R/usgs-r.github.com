@@ -35,6 +35,15 @@ Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
 MD5sum: 01f8da220a0e2d03dfb1389c2d05d812
 NeedsCompilation: no
 
+Package: USGSHydroOpt
+Version: 1.0.0
+Depends: R (>= 3.0)
+Imports: reshape2
+Suggests: knitr
+License: file LICENSE
+MD5sum: 3a20de3c7cf3e71a941d218b8c0cbc9f
+NeedsCompilation: no
+
 Package: USGSwsBase
 Version: 0.8.0
 Depends: methods, memoise, digest, lubridate (>= 1.3)
