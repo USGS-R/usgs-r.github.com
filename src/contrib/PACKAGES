@@ -113,7 +113,7 @@ Depends: R (>= 3.0)
 Imports: reshape2
 Suggests: knitr
 License: file LICENSE
-MD5sum: 73f669364f0473a57e7600d08a0ec024
+MD5sum: 7de3c5fb64298290878c2442a5e6e1ab
 NeedsCompilation: no
 
 Package: USGSwsBase
