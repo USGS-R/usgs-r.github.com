@@ -162,6 +162,6 @@ Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
-MD5sum: 0796d908812e4769737ea57874a5ad36
+MD5sum: bfe3ced3f9ccdd293ca63c9da7d79a79
 NeedsCompilation: no
 
