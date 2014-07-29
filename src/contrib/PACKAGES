@@ -41,6 +41,14 @@ License: file LICENSE
 MD5sum: 522309a21899fdd20a1f7f762303956f
 NeedsCompilation: no
 
+Package: geoknife
+Version: 0.2.2
+Imports: XML, RCurl
+Suggests: testthat, methods, knitr
+License: file LICENSE
+MD5sum: f477d91d43369aa47a20aa4a3edf56ca
+NeedsCompilation: no
+
 Package: GLRItcl
 Version: 1.1.0
 Depends: R (>= 3.0.0)
@@ -90,13 +98,13 @@ Package: restrend
 Version: 0.2
 Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: rloadest
 Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
 MD5sum: 3be0b685126528d7bab0b2464ea8d167
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: SampleSplitting
 Version: 1.0
@@ -145,7 +153,7 @@ Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: fbf34beba2d4a7e69b7e4de16f70b01e
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: USGSwsQWSR
 Version: 1.1.1
@@ -163,5 +171,5 @@ Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
 MD5sum: bfe3ced3f9ccdd293ca63c9da7d79a79
-NeedsCompilation: no
+NeedsCompilation: yes
 
