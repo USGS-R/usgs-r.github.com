@@ -115,6 +115,13 @@ License: file LICENSE
 MD5sum: 3100d068eb51662a025b354f564b08e9
 NeedsCompilation: no
 
+Package: sensorQC
+Version: 0.2.0
+Imports: yaml
+License: file LICENSE
+MD5sum: bd7a09bb0217d458f452f1896a031b63
+NeedsCompilation: no
+
 Package: USGSHydroOpt
 Version: 1.0.0
 Depends: R (>= 3.0)
