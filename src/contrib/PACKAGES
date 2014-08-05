@@ -41,6 +41,14 @@ License: file LICENSE
 MD5sum: 522309a21899fdd20a1f7f762303956f
 NeedsCompilation: no
 
+Package: geoknife
+Version: 0.2.2
+Imports: XML, RCurl
+Suggests: testthat, methods, knitr
+License: file LICENSE
+MD5sum: f477d91d43369aa47a20aa4a3edf56ca
+NeedsCompilation: no
+
 Package: GLRItcl
 Version: 1.1.0
 Depends: R (>= 3.0.0)
@@ -107,6 +115,22 @@ License: file LICENSE
 MD5sum: 3100d068eb51662a025b354f564b08e9
 NeedsCompilation: no
 
+Package: sensorQC
+Version: 0.2.0
+Imports: yaml
+License: file LICENSE
+MD5sum: bd7a09bb0217d458f452f1896a031b63
+NeedsCompilation: no
+
+Package: USGSHydroOpt
+Version: 1.0.0
+Depends: R (>= 3.0)
+Imports: reshape2
+Suggests: knitr
+License: file LICENSE
+MD5sum: 7de3c5fb64298290878c2442a5e6e1ab
+NeedsCompilation: no
+
 Package: USGSwsBase
 Version: 0.8.0
 Depends: methods, memoise, digest, lubridate (>= 1.3)
@@ -153,6 +177,6 @@ Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
-MD5sum: 0796d908812e4769737ea57874a5ad36
+MD5sum: bfe3ced3f9ccdd293ca63c9da7d79a79
 NeedsCompilation: no
 
