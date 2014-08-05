@@ -16,6 +16,7 @@ Package: EflowStats
 Version: 4.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
+Suggests: xtable, knitr
 License: file LICENSE
 
 Package: EGRET
@@ -29,6 +30,7 @@ Package: NWCCompare
 Version: 4.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
+Suggests: xtable, knitr
 License: file LICENSE
 
 Package: Rainmaker

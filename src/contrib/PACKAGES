@@ -20,8 +20,9 @@ Package: EflowStats
 Version: 4.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
+Suggests: xtable, knitr
 License: file LICENSE
-MD5sum: 0804f6f89f8515d00bb9a14e89361638
+MD5sum: cd44faf758d48f7f40b64b8d3f3a5845
 NeedsCompilation: no
 
 Package: EGRET
@@ -76,8 +77,9 @@ Package: NWCCompare
 Version: 4.0
 Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
+Suggests: xtable, knitr
 License: file LICENSE
-MD5sum: 01932607c20f4111dce81304a8549737
+MD5sum: 2741d44494e0f7921c157069d516dd2e
 NeedsCompilation: no
 
 Package: Rainmaker
