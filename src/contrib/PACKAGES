@@ -98,14 +98,17 @@ NeedsCompilation: no
 
 Package: restrend
 Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats,
+       USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
 NeedsCompilation: no
 
 Package: rloadest
-Version: 0.2
-Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
-MD5sum: 3be0b685126528d7bab0b2464ea8d167
+Version: 0.3.0
+Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
+Imports: stats
+Suggests: USGSwsBase
+MD5sum: 5d4bb9fb72926ea919b5ce447bd70858
 NeedsCompilation: no
 
 Package: SampleSplitting
@@ -134,12 +137,12 @@ MD5sum: 7de3c5fb64298290878c2442a5e6e1ab
 NeedsCompilation: no
 
 Package: USGSwsBase
-Version: 0.8.0
+Version: 0.8.1
 Depends: methods, memoise, digest, lubridate (>= 1.3)
 Imports: stats
-Suggests: USGSwsData (>= 0.6)
+Suggests: USGSwsData (>= 0.6), RODBC
 License: file LICENSE
-MD5sum: ce2ea1108edbacf4236eee479c0d815b
+MD5sum: 61b9ef18d46d3060dfa69ba55fe69adc
 NeedsCompilation: no
 
 Package: USGSwsData
@@ -157,11 +160,12 @@ MD5sum: e76c44e35c6cdf102e506dc87ae8f2a6
 NeedsCompilation: no
 
 Package: USGSwsQW
-Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Version: 0.6.1
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats,
+Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE
-MD5sum: fbf34beba2d4a7e69b7e4de16f70b01e
+MD5sum: 181965fe3a0b8eac438c34f62b579c4e
 NeedsCompilation: no
 
 Package: USGSwsQWSR
@@ -175,7 +179,8 @@ NeedsCompilation: no
 
 Package: USGSwsStats
 Version: 0.6
-Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6),
+       boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
