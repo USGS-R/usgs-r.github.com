@@ -26,6 +26,13 @@ Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 
+Package: GSHydroTools
+Version: 1.0.2
+Depends: R (>= 3.0)
+Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
+Suggests: knitr
+License: file LICENSE
+
 Package: NWCCompare
 Version: 4.0
 Depends: R (>= 3.0)
@@ -79,8 +86,7 @@ Archs: i386, x64
 
 Package: USGSwsStats
 Version: 0.6
-Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6),
-       boot
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
