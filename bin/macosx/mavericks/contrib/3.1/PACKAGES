@@ -38,6 +38,14 @@ Suggests: knitr
 License: file LICENSE
 MD5sum: 3a20de3c7cf3e71a941d218b8c0cbc9f
 
+Package: USGSHydroTools
+Version: 1.1.0
+Depends: R (>= 3.0)
+Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
+Suggests: knitr
+License: file LICENSE
+MD5sum: a6f79fdb748fe209ca2edfac5c924263
+
 Package: USGSwsBase
 Version: 0.8.0
 Depends: methods, memoise, digest, lubridate (>= 1.3)
