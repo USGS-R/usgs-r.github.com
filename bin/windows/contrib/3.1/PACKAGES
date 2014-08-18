@@ -59,6 +59,13 @@ Imports: reshape2
 Suggests: knitr
 License: file LICENSE
 
+Package: USGSHydroTools
+Version: 1.1.0
+Depends: R (>= 3.0)
+Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
+Suggests: knitr
+License: file LICENSE
+
 Package: USGSwsBase
 Version: 0.8.1
 Depends: methods, memoise, digest, lubridate (>= 1.3)

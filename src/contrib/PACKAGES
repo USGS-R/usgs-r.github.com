@@ -137,6 +137,15 @@ License: file LICENSE
 MD5sum: 7de3c5fb64298290878c2442a5e6e1ab
 NeedsCompilation: no
 
+Package: USGSHydroTools
+Version: 1.1.0
+Depends: R (>= 3.0)
+Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
+Suggests: knitr
+License: file LICENSE
+MD5sum: 9587e56880f7f078af577efc02591a36
+NeedsCompilation: no
+
 Package: USGSwsBase
 Version: 0.8.1
 Depends: methods, memoise, digest, lubridate (>= 1.3)
