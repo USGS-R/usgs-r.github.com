@@ -48,7 +48,7 @@ Depends: R (>= 2.15.0)
 Imports: oce
 Suggests: roxygen2
 License: file LICENSE
-MD5sum: 2df3b90d52a1f5961a9294feeef7b547
+MD5sum: e62579ff6121435ffe2aa475db62eaa1
 NeedsCompilation: no
 
 Package: geoknife
