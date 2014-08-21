@@ -1,10 +1,10 @@
 Package: dataRetrieval
-Version: 1.3.1
+Version: 1.3.3
 Depends: R (>= 3.0)
 Imports: zoo, XML, RCurl, plyr, reshape2
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 0a6a18f7dd0166d53f962dee26c3ba35
+MD5sum: 38652662bfb9c6224d9abb973b39bdd0
 NeedsCompilation: no
 
 Package: DVstats
@@ -58,10 +58,12 @@ MD5sum: 6145b6df2c10d6736a6667b037aaa40a
 NeedsCompilation: no
 
 Package: GSHydroTools
-Version: 1.0.0
-Depends: R (>= 3.0), rgdal, sp, dataRetrieval, USGSwsBase
+Version: 1.0.2
+Depends: R (>= 3.0)
+Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
+Suggests: knitr
 License: file LICENSE
-MD5sum: e39d7099007c44c0e7bee8877cfa07ca
+MD5sum: 706d313629381ace704e5bb149487216
 NeedsCompilation: no
 
 Package: GSqwsr
@@ -103,9 +105,11 @@ MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
 NeedsCompilation: no
 
 Package: rloadest
-Version: 0.2
-Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
-MD5sum: 3be0b685126528d7bab0b2464ea8d167
+Version: 0.3.0
+Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
+Imports: stats
+Suggests: USGSwsBase
+MD5sum: 5d4bb9fb72926ea919b5ce447bd70858
 NeedsCompilation: no
 
 Package: SampleSplitting
@@ -133,13 +137,22 @@ License: file LICENSE
 MD5sum: 7de3c5fb64298290878c2442a5e6e1ab
 NeedsCompilation: no
 
+Package: USGSHydroTools
+Version: 1.1.0
+Depends: R (>= 3.0)
+Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
+Suggests: knitr
+License: file LICENSE
+MD5sum: 9587e56880f7f078af577efc02591a36
+NeedsCompilation: no
+
 Package: USGSwsBase
-Version: 0.8.0
+Version: 0.8.1
 Depends: methods, memoise, digest, lubridate (>= 1.3)
 Imports: stats
-Suggests: USGSwsData (>= 0.6)
+Suggests: USGSwsData (>= 0.6), RODBC
 License: file LICENSE
-MD5sum: ce2ea1108edbacf4236eee479c0d815b
+MD5sum: 61b9ef18d46d3060dfa69ba55fe69adc
 NeedsCompilation: no
 
 Package: USGSwsData
@@ -157,20 +170,12 @@ MD5sum: e76c44e35c6cdf102e506dc87ae8f2a6
 NeedsCompilation: no
 
 Package: USGSwsQW
-Version: 0.5
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats, survival, methods, XML, mvtnorm
+Version: 0.6.1
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats,
+Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE
-MD5sum: fbf34beba2d4a7e69b7e4de16f70b01e
-NeedsCompilation: no
-
-Package: USGSwsQWSR
-Version: 1.1.1
-Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
-Imports: quantreg
-Suggests: xtable, EGRET, knitr
-License: file LICENSE
-MD5sum: fdae8c42ec6940896275f7bab38dc3d0
+MD5sum: 181965fe3a0b8eac438c34f62b579c4e
 NeedsCompilation: no
 
 Package: USGSwsStats
