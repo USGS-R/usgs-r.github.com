@@ -42,6 +42,15 @@ License: file LICENSE
 MD5sum: 522309a21899fdd20a1f7f762303956f
 NeedsCompilation: no
 
+Package: GDopp
+Version: 0.1.0
+Depends: R (>= 2.15.0)
+Imports: oce
+Suggests: roxygen2
+License: file LICENSE
+MD5sum: e62579ff6121435ffe2aa475db62eaa1
+NeedsCompilation: no
+
 Package: geoknife
 Version: 0.2.2
 Imports: XML, RCurl
@@ -102,7 +111,7 @@ Package: restrend
 Version: 0.2
 Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: rloadest
 Version: 0.3.0
@@ -110,7 +119,7 @@ Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
 Imports: stats
 Suggests: USGSwsBase
 MD5sum: 5d4bb9fb72926ea919b5ce447bd70858
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: SampleSplitting
 Version: 1.0
@@ -176,7 +185,7 @@ Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: 181965fe3a0b8eac438c34f62b579c4e
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: USGSwsStats
 Version: 0.6
@@ -185,5 +194,5 @@ Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
 MD5sum: bfe3ced3f9ccdd293ca63c9da7d79a79
-NeedsCompilation: no
+NeedsCompilation: yes
 
