@@ -3,7 +3,7 @@ usgs-r.github.com
 
 Splash page for USGS-R organization
 
-[usgs-r.github.com](usgs-r.github.com)
+[http://usgs-r.github.com](http://usgs-r.github.com)
 
 Disclaimer
 ----------
