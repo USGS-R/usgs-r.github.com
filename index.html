@@ -67,12 +67,14 @@
       }
 
       function addRepo(repo) {
+		if (repo && "R" === repo.language) {
         var $item = $("<li>").addClass("repo grid-1 " + (repo.language || '').toLowerCase());
         var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
         $link.append($("<h2>").text(repo.name));
         $link.append($("<h3>").text(repo.language));
         $link.append($("<p>").text(repoDescription(repo)));
         $item.appendTo("#repos");
+		  }
       }
 
       function addRepos(repos, page) {
