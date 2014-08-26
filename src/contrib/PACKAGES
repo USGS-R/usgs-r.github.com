@@ -22,7 +22,7 @@ Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
 Suggests: xtable, knitr
 License: file LICENSE
-MD5sum: cd44faf758d48f7f40b64b8d3f3a5845
+MD5sum: 175c87402d27bf62422f540a23a1beb1
 NeedsCompilation: no
 
 Package: EGRET
@@ -40,6 +40,15 @@ Depends: R (>= 3.0.0)
 Imports: XML, RCurl
 License: file LICENSE
 MD5sum: 522309a21899fdd20a1f7f762303956f
+NeedsCompilation: no
+
+Package: GDopp
+Version: 0.1.0
+Depends: R (>= 2.15.0)
+Imports: oce
+Suggests: roxygen2
+License: file LICENSE
+MD5sum: e62579ff6121435ffe2aa475db62eaa1
 NeedsCompilation: no
 
 Package: geoknife
