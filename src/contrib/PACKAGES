@@ -57,15 +57,6 @@ License: file LICENSE
 MD5sum: 6145b6df2c10d6736a6667b037aaa40a
 NeedsCompilation: no
 
-Package: GSHydroTools
-Version: 1.0.2
-Depends: R (>= 3.0)
-Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
-Suggests: knitr
-License: file LICENSE
-MD5sum: 706d313629381ace704e5bb149487216
-NeedsCompilation: no
-
 Package: GSqwsr
 Version: 1.1.1
 Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
@@ -143,7 +134,7 @@ Depends: R (>= 3.0)
 Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
 Suggests: knitr
 License: file LICENSE
-MD5sum: 9587e56880f7f078af577efc02591a36
+MD5sum: 52369c651025f1a21f139b999dea3262
 NeedsCompilation: no
 
 Package: USGSwsBase
