@@ -27,11 +27,11 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 20px;
-  color: #0084b4;
+  color: rgb(0,51,102);
 }
 
 a:link, a:visited {
-  color: #0084b4;
+  color: rgb(0,51,102);
   text-decoration: none;
 }
 
@@ -101,7 +101,7 @@ div.header h1 {
 #num-repos, #num-members {
   font-size: 14px;
   font-weight: bold;
-  color: #0084b4;
+  color: rgb(0,51,102);
   line-height: 15px;
 }
 
@@ -139,6 +139,7 @@ div.header h1 {
 #recently-updated-repos li span.name {
   padding: 0 6px 0 0;
   font-size: 13px;
+  color:rgb(0,51,102) !important;
 }
 
 #recently-updated-repos li span.time a,
@@ -191,7 +192,7 @@ li.repo h3 {
   height: 0;
   border-bottom: 50px solid transparent;
   border-left: 50px solid transparent;
-  border-right: 50px solid #0080b0;
+  border-right: 50px solid rgb(0,51,102);
   pointer-events: none;
 }
 

@@ -66,15 +66,6 @@ License: file LICENSE
 MD5sum: 6145b6df2c10d6736a6667b037aaa40a
 NeedsCompilation: no
 
-Package: GSHydroTools
-Version: 1.0.2
-Depends: R (>= 3.0)
-Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
-Suggests: knitr
-License: file LICENSE
-MD5sum: 706d313629381ace704e5bb149487216
-NeedsCompilation: no
-
 Package: GSqwsr
 Version: 1.1.1
 Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
@@ -111,7 +102,7 @@ Package: restrend
 Version: 0.2
 Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: rloadest
 Version: 0.3.0
@@ -119,7 +110,7 @@ Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
 Imports: stats
 Suggests: USGSwsBase
 MD5sum: 5d4bb9fb72926ea919b5ce447bd70858
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: SampleSplitting
 Version: 1.0
@@ -152,7 +143,7 @@ Depends: R (>= 3.0)
 Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
 Suggests: knitr
 License: file LICENSE
-MD5sum: 9587e56880f7f078af577efc02591a36
+MD5sum: 52369c651025f1a21f139b999dea3262
 NeedsCompilation: no
 
 Package: USGSwsBase
@@ -185,7 +176,7 @@ Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: 181965fe3a0b8eac438c34f62b579c4e
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: USGSwsStats
 Version: 0.6
@@ -194,5 +185,5 @@ Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
 MD5sum: bfe3ced3f9ccdd293ca63c9da7d79a79
-NeedsCompilation: yes
+NeedsCompilation: no
 
