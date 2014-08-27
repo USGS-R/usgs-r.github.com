@@ -96,7 +96,6 @@
 
         var uri = "https://api.github.com/orgs/usgs-r/repos?callback=?"
                 + "&per_page=100"
-                + "&language=R"
                 + "&page="+page;
 
         $.getJSON(uri, function (result) {
