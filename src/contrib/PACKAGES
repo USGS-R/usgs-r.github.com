@@ -118,7 +118,7 @@ Depends: R (>= 3.0)
 Imports: dataRetrieval, googleVis
 Suggests: knitr
 License: file LICENSE
-MD5sum: 78cf5d241e069e008bd68ba8280a62ec
+MD5sum: b62dcbf8c08453b10e6f06766a08b01a
 NeedsCompilation: no
 
 Package: sensorQC
