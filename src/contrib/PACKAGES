@@ -81,7 +81,7 @@ Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 Suggests: xtable, knitr
 License: file LICENSE
-MD5sum: 2741d44494e0f7921c157069d516dd2e
+MD5sum: e23117c51f00dc8e2a5d512a86aaf95a
 NeedsCompilation: no
 
 Package: Rainmaker
