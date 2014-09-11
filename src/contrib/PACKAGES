@@ -170,12 +170,12 @@ MD5sum: e76c44e35c6cdf102e506dc87ae8f2a6
 NeedsCompilation: no
 
 Package: USGSwsQW
-Version: 0.6.1
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats,
+Version: 0.6.2
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats
 Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE
-MD5sum: 181965fe3a0b8eac438c34f62b579c4e
+MD5sum: 0b905bd32846fbfc619797fa308306e1
 NeedsCompilation: no
 
 Package: USGSwsStats
