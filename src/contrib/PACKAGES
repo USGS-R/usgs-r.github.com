@@ -4,7 +4,7 @@ Depends: R (>= 3.0)
 Imports: zoo, XML, RCurl, plyr, reshape2
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 98a28adf49cf403429e831e9e7003a88
+MD5sum: fc10ae4e1fe7dfde1c7ff3ac8a43fb73
 NeedsCompilation: no
 
 Package: DVstats
