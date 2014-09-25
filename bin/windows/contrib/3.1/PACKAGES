@@ -77,8 +77,8 @@ Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
 Package: USGSwsQW
-Version: 0.6.1
-Depends: USGSwsBase, USGSwsGraphs, USGSwsStats,
+Version: 0.6.2
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats
 Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE

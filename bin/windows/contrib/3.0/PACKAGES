@@ -12,12 +12,6 @@ Imports: robust, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
-Package: EflowStats
-Version: 3.0
-Depends: R (>= 3.0)
-Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
-License: file LICENSE
-
 Package: EGRET
 Version: 1.2.6
 Depends: R (>= 3.0)
@@ -37,12 +31,6 @@ Imports: quantreg
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
 
-Package: NWCCompare
-Version: 3.0
-Depends: R (>= 3.0)
-Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
-License: file LICENSE
-
 Package: Rainmaker
 Version: 1.0.0
 Depends: R (>= 3.0)
@@ -57,13 +45,6 @@ Package: rloadest
 Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
 Archs: i386, x64
-
-Package: SampleSplitting
-Version: 1.0
-Depends: R (>= 3.0)
-Imports: dataRetrieval, googleVis
-Suggests: knitr
-License: file LICENSE
 
 Package: USGSHydroTools
 Version: 1.1.0
