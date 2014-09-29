@@ -15,7 +15,7 @@ License: file LICENSE
 Package: EflowStats
 Version: 4.0
 Depends: R (>= 3.0)
-Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
+Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco, plyr
 Suggests: xtable, knitr
 License: file LICENSE
 
