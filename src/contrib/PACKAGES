@@ -19,10 +19,10 @@ NeedsCompilation: no
 Package: EflowStats
 Version: 4.0
 Depends: R (>= 3.0)
-Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco
+Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco, plyr
 Suggests: xtable, knitr
 License: file LICENSE
-MD5sum: 01d51d9786208b414dd320305d7444ab
+MD5sum: 910463e700e7b3f0c27b8afff301873c
 NeedsCompilation: no
 
 Package: EGRET
