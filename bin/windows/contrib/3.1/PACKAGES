@@ -60,14 +60,22 @@ Suggests: knitr
 License: file LICENSE
 
 Package: USGSwsBase
-Version: 0.8.1
-Depends: methods, memoise, digest, lubridate (>= 1.3)
+Version: 0.8.3
+Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>=
+         1.3)
 Imports: stats
 Suggests: USGSwsData (>= 0.6), RODBC
 License: file LICENSE
 
 Package: USGSwsData
 Version: 0.9.0
+License: file LICENSE
+
+Package: USGSwsDataRetrieval
+Version: 0.1.1
+Depends: R (>= 3.0)
+Imports: lubridate, XML, RCurl, reshape2, plyr
+Suggests: xtable, knitr
 License: file LICENSE
 
 Package: USGSwsGraphs
