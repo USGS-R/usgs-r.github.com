@@ -60,11 +60,11 @@ MD5sum: f477d91d43369aa47a20aa4a3edf56ca
 NeedsCompilation: no
 
 Package: glmtools
-Version: 0.2.4.2
-Depends: R (>= 3.0)
-Imports: ncdf4, RCurl, tools, rLakeAnalyzer
+Version: 0.2.5.2
+Depends: R (>= 3.0), GLMr
+Imports: ncdf4, tools, rLakeAnalyzer
 License: file LICENSE
-MD5sum: 577e027fa63f9d4421a44532521fb3be
+MD5sum: 60e654e21b836e8bc4ddc37953993fc5
 NeedsCompilation: no
 
 Package: GLRItcl
