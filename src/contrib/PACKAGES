@@ -76,11 +76,11 @@ NeedsCompilation: no
 
 Package: GSqwsr
 Version: 1.1.1
-Depends: R (>= 3.0), USGSwsQW, latticeExtra, dataRetrieval, MASS
-Imports: quantreg
+Depends: R (>= 3.0), USGSwsBase, USGSwsQW, latticeExtra
+Imports: quantreg, MASS, dataRetrieval
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 47b19ab8229f58e23c4333beeafb6188
+MD5sum: 4e2854c993b30f30d89ee8bcc82447eb
 NeedsCompilation: no
 
 Package: NWCCompare
