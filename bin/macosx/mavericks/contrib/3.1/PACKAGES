@@ -14,6 +14,14 @@ Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 MD5sum: d026190516f2d86687e56dd754d6ae69
 
+Package: GSqwsr
+Version: 1.1.1
+Depends: R (>= 3.0), USGSwsBase, USGSwsQW, latticeExtra
+Imports: quantreg, MASS, dataRetrieval
+Suggests: xtable, EGRET, knitr
+License: file LICENSE
+MD5sum: dea6701776237f32701cb915b586d4cf
+
 Package: Rainmaker
 Version: 1.0.1
 Depends: R (>= 3.0)
