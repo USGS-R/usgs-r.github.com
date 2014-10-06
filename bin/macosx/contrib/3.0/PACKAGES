@@ -15,12 +15,12 @@ License: file LICENSE
 MD5sum: c60a9ff0093e3ba729ecda149764b873
 
 Package: EGRET
-Version: 1.2.6
+Version: 1.3.0
 Depends: R (>= 3.0)
 Imports: methods, survival, fields
 Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
-MD5sum: 079e1a961f46902d1dd4b57c464fede5
+MD5sum: d026190516f2d86687e56dd754d6ae69
 
 Package: GSqwsr
 Version: 1.1.1
