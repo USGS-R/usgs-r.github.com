@@ -80,7 +80,7 @@ Depends: R (>= 3.0), USGSwsBase, USGSwsQW, latticeExtra
 Imports: quantreg, MASS, dataRetrieval
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
-MD5sum: 4e2854c993b30f30d89ee8bcc82447eb
+MD5sum: d762f838459334b6659a6ef05b8ca8af
 NeedsCompilation: no
 
 Package: NWCCompare
