@@ -60,11 +60,11 @@ MD5sum: f477d91d43369aa47a20aa4a3edf56ca
 NeedsCompilation: no
 
 Package: glmtools
-Version: 0.2.5.2
-Depends: R (>= 3.0), GLMr
-Imports: ncdf4, tools, rLakeAnalyzer
+Version: 0.2.6.2
+Depends: R (>= 3.0), GLMr, rLakeAnalyzer
+Imports: ncdf, tools
 License: file LICENSE
-MD5sum: 60e654e21b836e8bc4ddc37953993fc5
+MD5sum: 66e0626d4e2fe543f6428509883630ff
 NeedsCompilation: no
 
 Package: GLRItcl
@@ -110,7 +110,7 @@ Package: restrend
 Version: 0.2
 Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: rloadest
 Version: 0.3.0
@@ -118,7 +118,7 @@ Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
 Imports: stats
 Suggests: USGSwsBase
 MD5sum: 7ebf50d996998dd78b40fac9c28f7372
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: SampleSplitting
 Version: 1.0
@@ -193,7 +193,7 @@ Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: 0b905bd32846fbfc619797fa308306e1
-NeedsCompilation: no
+NeedsCompilation: yes
 
 Package: USGSwsStats
 Version: 0.6
@@ -202,5 +202,5 @@ Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
 MD5sum: bfe3ced3f9ccdd293ca63c9da7d79a79
-NeedsCompilation: no
+NeedsCompilation: yes
 
