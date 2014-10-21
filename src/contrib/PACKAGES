@@ -22,7 +22,7 @@ Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco, plyr
 Suggests: xtable, knitr
 License: file LICENSE
-MD5sum: 910463e700e7b3f0c27b8afff301873c
+MD5sum: b6650659e09ce70d12ee3c9d61ee1462
 NeedsCompilation: no
 
 Package: EGRET
@@ -110,7 +110,7 @@ Package: restrend
 Version: 0.2
 Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: rloadest
 Version: 0.3.0
@@ -118,7 +118,7 @@ Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
 Imports: stats
 Suggests: USGSwsBase
 MD5sum: 7ebf50d996998dd78b40fac9c28f7372
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: SampleSplitting
 Version: 1.0
@@ -193,7 +193,7 @@ Imports: survival, methods, mvtnorm, XML
 Suggests: USGSwsData
 License: file LICENSE
 MD5sum: 0b905bd32846fbfc619797fa308306e1
-NeedsCompilation: yes
+NeedsCompilation: no
 
 Package: USGSwsStats
 Version: 0.6
@@ -202,5 +202,5 @@ Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
 MD5sum: bfe3ced3f9ccdd293ca63c9da7d79a79
-NeedsCompilation: yes
+NeedsCompilation: no
 
