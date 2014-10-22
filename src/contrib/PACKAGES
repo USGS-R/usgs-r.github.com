@@ -22,7 +22,7 @@ Depends: R (>= 3.0)
 Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco, plyr
 Suggests: xtable, knitr
 License: file LICENSE
-MD5sum: b6650659e09ce70d12ee3c9d61ee1462
+MD5sum: 84d5ff3511ab5bdcc836fd2f636e723f
 NeedsCompilation: no
 
 Package: EGRET
