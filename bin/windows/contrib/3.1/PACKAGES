@@ -91,9 +91,9 @@ Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
 Package: USGSwsQW
-Version: 0.6.2
+Version: 0.6.3
 Depends: USGSwsBase, USGSwsGraphs, USGSwsStats
-Imports: survival, methods, mvtnorm, XML
+Imports: survival, methods, mvtnorm, XML, zCompositions
 Suggests: USGSwsData
 License: file LICENSE
 Archs: i386, x64
