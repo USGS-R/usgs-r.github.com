@@ -1,8 +1,7 @@
 Package: dataRetrieval
 Version: 1.4.0
 Depends: R (>= 3.0)
-Imports: zoo, XML, RCurl, dplyr, reshape2,
-     lubridate
+Imports: zoo, XML, RCurl, dplyr, reshape2, lubridate
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
 MD5sum: bc1629480b4de9b9fdb6f09fd70b4b79
@@ -10,8 +9,7 @@ NeedsCompilation: no
 
 Package: DVstats
 Version: 0.1
-Depends: lubridate, USGSwsBase, USGSwsGraphs,
-     USGSwsStats, evd, stats4
+Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
 Imports: robust, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
@@ -21,8 +19,7 @@ NeedsCompilation: no
 Package: EflowStats
 Version: 4.0
 Depends: R (>= 3.0)
-Imports: zoo, chron, doBy, XML, RCurl,
-     hydroGOF, lmomco, plyr
+Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco, plyr
 Suggests: xtable, knitr
 License: file LICENSE
 MD5sum: 84d5ff3511ab5bdcc836fd2f636e723f
@@ -32,8 +29,7 @@ Package: EGRET
 Version: 1.3.0
 Depends: R (>= 3.0)
 Imports: methods, survival, fields
-Suggests: xtable, dataRetrieval, knitr,
-     extrafont
+Suggests: xtable, dataRetrieval, knitr, extrafont
 License: file LICENSE
 MD5sum: eef3d47e5674be02f8c525014c1211fd
 NeedsCompilation: no
@@ -80,8 +76,7 @@ NeedsCompilation: no
 
 Package: GSqwsr
 Version: 1.1.1
-Depends: R (>= 3.0), USGSwsBase, USGSwsQW,
-     latticeExtra
+Depends: R (>= 3.0), USGSwsBase, USGSwsQW, latticeExtra
 Imports: quantreg, MASS, dataRetrieval
 Suggests: xtable, EGRET, knitr
 License: file LICENSE
@@ -91,8 +86,7 @@ NeedsCompilation: no
 Package: NWCCompare
 Version: 4.0
 Depends: R (>= 3.0)
-Imports: zoo, chron, doBy, XML, EflowStats,
-     lmomco, hydroGOF
+Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 Suggests: xtable, knitr
 License: file LICENSE
 MD5sum: e23117c51f00dc8e2a5d512a86aaf95a
@@ -114,15 +108,13 @@ NeedsCompilation: no
 
 Package: restrend
 Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase,
-     USGSwsGraphs, USGSwsStats, USGSwsQW
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
 NeedsCompilation: no
 
 Package: rloadest
 Version: 0.3.0
-Depends: R (>= 3.0.0), USGSwsGraphs,
-     USGSwsStats, USGSwsQW
+Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
 Imports: stats
 Suggests: USGSwsBase
 MD5sum: 7ebf50d996998dd78b40fac9c28f7372
@@ -156,8 +148,7 @@ NeedsCompilation: no
 Package: USGSHydroTools
 Version: 1.1.0
 Depends: R (>= 3.0)
-Imports: rgdal, sp, dataRetrieval,
-     USGSwsBase, raster, rgeos
+Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
 Suggests: knitr
 License: file LICENSE
 MD5sum: 52369c651025f1a21f139b999dea3262
@@ -165,9 +156,7 @@ NeedsCompilation: no
 
 Package: USGSwsBase
 Version: 0.8.3
-Depends: USGSwsDataRetrieval (>= 0.1.1),
-     methods, memoise, digest, lubridate (>=
-     1.3)
+Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>= 1.3)
 Imports: stats
 Suggests: USGSwsData (>= 0.6), RODBC
 License: file LICENSE
@@ -183,8 +172,7 @@ NeedsCompilation: no
 Package: USGSwsDataRetrieval
 Version: 0.1.1
 Depends: R (>= 3.0)
-Imports: lubridate, XML, RCurl, reshape2,
-     plyr
+Imports: lubridate, XML, RCurl, reshape2, plyr
 Suggests: xtable, knitr
 License: file LICENSE
 MD5sum: 4d84331069dd2e532e90a9af7ce51004
@@ -192,27 +180,24 @@ NeedsCompilation: no
 
 Package: USGSwsGraphs
 Version: 0.8
-Depends: KernSmooth, USGSwsBase (>= 0.4),
-     akima, methods
+Depends: KernSmooth, USGSwsBase (>= 0.4), akima, methods
 Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 MD5sum: e76c44e35c6cdf102e506dc87ae8f2a6
 NeedsCompilation: no
 
 Package: USGSwsQW
-Version: 0.6.2
-Depends: USGSwsBase, USGSwsGraphs,
-     USGSwsStats
-Imports: survival, methods, mvtnorm, XML
+Version: 0.6.4
+Depends: USGSwsBase, USGSwsGraphs, USGSwsStats
+Imports: survival, methods, mvtnorm, XML, lubridate, zCompositions
 Suggests: USGSwsData
 License: file LICENSE
-MD5sum: 0b905bd32846fbfc619797fa308306e1
+MD5sum: bb9371ee23b6beca60e3bad4b36299cb
 NeedsCompilation: no
 
 Package: USGSwsStats
 Version: 0.6
-Depends: USGSwsBase (>= 0.5), stats, leaps,
-     USGSwsGraphs (>= 0.6), boot
+Depends: USGSwsBase (>= 0.5), stats, leaps, USGSwsGraphs (>= 0.6), boot
 Imports: car
 Suggests: USGSwsData (>= 0.8)
 License: file LICENSE
