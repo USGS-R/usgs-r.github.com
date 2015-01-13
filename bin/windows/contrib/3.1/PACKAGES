@@ -52,6 +52,13 @@ Imports: stats
 Suggests: USGSwsBase
 Archs: i386, x64
 
+Package: smwrBase
+Version: 1.0.0
+Depends: methods, memoise, digest, lubridate (>= 1.3)
+Imports: stats
+Suggests: smwrData (>= 0.6), dataRetrieval (>= 2.0.1), RODBC
+License: file LICENSE
+
 Package: USGSHydroOpt
 Version: 1.0.0
 Depends: R (>= 3.0)
@@ -91,9 +98,9 @@ Suggests: USGSwsData (>= 0.6)
 License: file LICENSE
 
 Package: USGSwsQW
-Version: 0.6.2
+Version: 0.6.4
 Depends: USGSwsBase, USGSwsGraphs, USGSwsStats
-Imports: survival, methods, mvtnorm, XML
+Imports: survival, methods, mvtnorm, XML, lubridate, zCompositions
 Suggests: USGSwsData
 License: file LICENSE
 Archs: i386, x64
