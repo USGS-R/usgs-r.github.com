@@ -170,6 +170,15 @@ License: file LICENSE
 MD5sum: 2de9f3f54ffcf49e8d922b55b99acc13
 NeedsCompilation: no
 
+Package: smwrGraphs
+Version: 1.0.2
+Depends: smwrBase (>= 1.0.0), methods
+Imports: KernSmooth, akima, lubridate
+Suggests: smwrData (>= 1.0.0)
+License: file LICENSE
+MD5sum: a59471a8226632726596c9d0de4c9dd3
+NeedsCompilation: no
+
 Package: USGSHydroOpt
 Version: 1.0.0
 Depends: R (>= 3.0)
@@ -190,7 +199,8 @@ NeedsCompilation: no
 
 Package: USGSwsBase
 Version: 0.8.3
-Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>= 1.3)
+Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>=
+         1.3)
 Imports: stats
 Suggests: USGSwsData (>= 0.6), RODBC
 License: file LICENSE
