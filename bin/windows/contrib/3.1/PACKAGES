@@ -45,6 +45,11 @@ Version: 1.0.1
 Depends: R (>= 3.0)
 License: file LICENSE
 
+Package: restrend
+Version: 0.2
+Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
+Archs: i386, x64
+
 Package: rloadest
 Version: 0.3.0
 Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
