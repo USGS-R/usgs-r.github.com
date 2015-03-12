@@ -83,7 +83,7 @@ Depends: R (>= 3.0)
 Imports: dataRetrieval, googleVis
 Suggests: knitr
 License: file LICENSE
-MD5sum: 4923aff819f9648b7345db10a79e22aa
+MD5sum: 92c9671efa8a660004ffb986a4166a45
 NeedsCompilation: no
 
 Package: sensorQC
@@ -137,8 +137,7 @@ NeedsCompilation: no
 
 Package: USGSwsBase
 Version: 0.8.3
-Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>=
-         1.3)
+Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>= 1.3)
 Imports: stats
 Suggests: USGSwsData (>= 0.6), RODBC
 License: file LICENSE
