@@ -1,12 +1,3 @@
-Package: dataRetrieval
-Version: 1.4.0
-Depends: R (>= 3.0)
-Imports: zoo, XML, RCurl, dplyr, reshape2, lubridate
-Suggests: xtable, EGRET, knitr
-License: file LICENSE
-MD5sum: bc1629480b4de9b9fdb6f09fd70b4b79
-NeedsCompilation: no
-
 Package: DVstats
 Version: 0.1
 Depends: lubridate, USGSwsBase, USGSwsGraphs, USGSwsStats, evd, stats4
@@ -23,15 +14,6 @@ Imports: zoo, chron, doBy, XML, RCurl, hydroGOF, lmomco, plyr
 Suggests: xtable, knitr
 License: file LICENSE
 MD5sum: 2c03ec597f5075a35a54a05f66ce0e57
-NeedsCompilation: no
-
-Package: EGRET
-Version: 1.3.0
-Depends: R (>= 3.0)
-Imports: methods, survival, fields
-Suggests: xtable, dataRetrieval, knitr, extrafont
-License: file LICENSE
-MD5sum: eef3d47e5674be02f8c525014c1211fd
 NeedsCompilation: no
 
 Package: EnDDaT
@@ -51,45 +33,11 @@ License: file LICENSE
 MD5sum: e62579ff6121435ffe2aa475db62eaa1
 NeedsCompilation: no
 
-Package: geoknife
-Version: 0.2.2
-Imports: XML, RCurl
-Suggests: testthat, methods, knitr
-License: file LICENSE
-MD5sum: f477d91d43369aa47a20aa4a3edf56ca
-NeedsCompilation: no
-
-Package: glmtools
-Version: 0.2.7.2
-Depends: R (>= 3.0), GLMr, rLakeAnalyzer
-Imports: ncdf, tools
-License: file LICENSE
-MD5sum: c51558fdb435d4bcd2dc0f589b852298
-NeedsCompilation: no
-
 Package: GLRItcl
 Version: 1.1.0
 Depends: R (>= 3.0.0)
 License: file LICENSE
 MD5sum: 6145b6df2c10d6736a6667b037aaa40a
-NeedsCompilation: no
-
-Package: GSqwsr
-Version: 1.1.1
-Depends: R (>= 3.0), USGSwsBase, USGSwsQW, latticeExtra
-Imports: quantreg, MASS, dataRetrieval
-Suggests: xtable, EGRET, knitr
-License: file LICENSE
-MD5sum: d762f838459334b6659a6ef05b8ca8af
-NeedsCompilation: no
-
-Package: mda.streams
-Version: 0.1.0
-Depends: R (>= 3.0)
-Imports: dataRetrieval, sbtools, R.utils, stringr, jsonlite
-Suggests: testthat
-License: file LICENSE
-MD5sum: b8b92a1e1251c631b68bd8e55dccf31b
 NeedsCompilation: no
 
 Package: NWCCompare
@@ -99,15 +47,6 @@ Imports: zoo, chron, doBy, XML, EflowStats, lmomco, hydroGOF
 Suggests: xtable, knitr
 License: file LICENSE
 MD5sum: e23117c51f00dc8e2a5d512a86aaf95a
-NeedsCompilation: no
-
-Package: powstreams
-Version: 0.1.0
-Depends: R (>= 3.0),
-Imports: mda.streams, sbtools, httr
-Suggests: testthat
-License: file LICENSE
-MD5sum: 41dbae1567ba2ee09f16fefea697b829
 NeedsCompilation: no
 
 Package: Rainmaker
@@ -127,7 +66,7 @@ NeedsCompilation: no
 Package: restrend
 Version: 0.2
 Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
-MD5sum: d748a2de6bfc4c9b3b8b3f3d3b930566
+MD5sum: 6f3810198f6b19c39ff3e01c11f0cb7a
 NeedsCompilation: no
 
 Package: rloadest
@@ -147,13 +86,6 @@ License: file LICENSE
 MD5sum: 4923aff819f9648b7345db10a79e22aa
 NeedsCompilation: no
 
-Package: sbtools
-Version: 0.1.0
-Imports: jsonlite, httr
-License: CC0
-MD5sum: 0a26b42d952ae339a2e6623ed2ef00dd
-NeedsCompilation: no
-
 Package: sensorQC
 Version: 0.2.0
 Imports: yaml
@@ -162,35 +94,51 @@ MD5sum: bd7a09bb0217d458f452f1896a031b63
 NeedsCompilation: no
 
 Package: smwrBase
-Version: 1.0.0
+Version: 1.0.1
 Depends: methods, memoise, digest, lubridate (>= 1.3)
 Imports: stats
 Suggests: smwrData (>= 0.6), dataRetrieval (>= 2.0.1), RODBC
 License: file LICENSE
-MD5sum: 2de9f3f54ffcf49e8d922b55b99acc13
+MD5sum: d16fca3d39a78fc72a0ff9ade1a132a6
 NeedsCompilation: no
 
-Package: USGSHydroOpt
-Version: 1.0.0
-Depends: R (>= 3.0)
-Imports: reshape2
-Suggests: knitr
+Package: smwrData
+Version: 1.0.1
 License: file LICENSE
-MD5sum: 7de3c5fb64298290878c2442a5e6e1ab
+MD5sum: 727267ecd5ef743af7ec692927e43ffa
 NeedsCompilation: no
 
-Package: USGSHydroTools
-Version: 1.1.0
-Depends: R (>= 3.0)
-Imports: rgdal, sp, dataRetrieval, USGSwsBase, raster, rgeos
-Suggests: knitr
+Package: smwrGraphs
+Version: 1.0.2
+Depends: smwrBase (>= 1.0.0), methods
+Imports: KernSmooth, akima, lubridate
+Suggests: smwrData (>= 1.0.0)
 License: file LICENSE
-MD5sum: 52369c651025f1a21f139b999dea3262
+MD5sum: a59471a8226632726596c9d0de4c9dd3
+NeedsCompilation: no
+
+Package: smwrQW
+Version: 0.7.0
+Depends: dataRetrieval, smwrBase, smwrGraphs, smwrStats
+Imports: survival, methods, mvtnorm, XML, lubridate, zCompositions
+Suggests: smwrData
+License: file LICENSE
+MD5sum: 01c032b1886bab0afecee6bab656a8bd
+NeedsCompilation: no
+
+Package: smwrStats
+Version: 0.7.0
+Depends: smwrBase (>= 1.0), smwrGraphs (>= 1.0)
+Imports: car, leaps, stats
+Suggests: smwrData (>= 1.0), dataRetrieval
+License: file LICENSE
+MD5sum: 6cf29587fe455266040613cbec66a4ff
 NeedsCompilation: no
 
 Package: USGSwsBase
 Version: 0.8.3
-Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>= 1.3)
+Depends: USGSwsDataRetrieval (>= 0.1.1), methods, memoise, digest, lubridate (>=
+         1.3)
 Imports: stats
 Suggests: USGSwsData (>= 0.6), RODBC
 License: file LICENSE
