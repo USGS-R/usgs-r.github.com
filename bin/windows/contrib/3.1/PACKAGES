@@ -30,10 +30,11 @@ Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
 Archs: i386, x64
 
 Package: rloadest
-Version: 0.3.0
-Depends: R (>= 3.0.0), USGSwsGraphs, USGSwsStats, USGSwsQW
+Version: 0.4.0
+Depends: R (>= 3.0.0), smwrGraphs, smwrStats, smwrQW
 Imports: stats
-Suggests: USGSwsBase
+Suggests: smwrBase, dataRetrieval
+License: CC0
 Archs: i386, x64
 
 Package: smwrBase
