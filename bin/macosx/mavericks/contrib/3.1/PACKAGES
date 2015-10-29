@@ -4,11 +4,6 @@ Depends: R (>= 3.0)
 License: file LICENSE
 MD5sum: 2f6c35fb855a74486506530e0ce2af1e
 
-Package: restrend
-Version: 0.2
-Depends: R (>= 3.0.0), g.data, USGSwsBase, USGSwsGraphs, USGSwsStats, USGSwsQW
-MD5sum: 981153fb8faab7459412e5bd1d0d19ed
-
 Package: rloadest
 Version: 0.2
 Depends: R (>= 3.0.0), digest, lubridate, USGSwsBase, USGSwsQW
