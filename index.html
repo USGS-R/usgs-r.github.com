@@ -62,7 +62,7 @@
 
       function addRecentlyUpdatedRepo(repo) {
 		  
-		  if (repo && "R" === repo.language) {
+		  //if (repo && "R" === repo.language) {
         var $item = $("<li>");
 
         var $name = $("<a>").attr("href", repo.html_url).text(repo.name);
@@ -81,17 +81,19 @@
         var $forks = $("<a>").attr("href", repo.html_url + "/network").text(repo.forks + " forks");
         $item.append($("<span>").addClass("forks").append($forks));
 
-        $item.appendTo("#recently-updated-repos");}
+        $item.appendTo("#recently-updated-repos");
+        
+      //}
       }
 
       function addRepo(repo) {
-		if (repo && "R" === repo.language) {
+		//if (repo && "R" === repo.language) {
         var $item = $("<li>").addClass("repo grid-1 " + (repo.language || '').toLowerCase());
         var $link = $("<a>").attr("href", repoUrl(repo)).appendTo($item);
         $link.append($("<h2>").text(repo.name));
         $link.append($("<p>").text(repoDescription(repo)));
         $item.appendTo("#repos");
-		  }
+		  //}
       }
 
       function addRepos(repos, page) {
